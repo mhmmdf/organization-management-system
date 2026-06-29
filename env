@@ -1,0 +1,41 @@
+#--------------------------------------------------------------------
+# Environment Configuration
+#--------------------------------------------------------------------
+# Copy this file to `.env` and customize for your environment.
+# See https://codeigniter4.github.io/userguide/general/environments.html
+
+CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# App Configuration
+#--------------------------------------------------------------------
+app.baseURL = http://localhost:8080
+# app.forceGlobalSecureRequests = false
+
+#--------------------------------------------------------------------
+# Database Configuration
+#--------------------------------------------------------------------
+database.default.hostname = localhost
+database.default.database = ukm_db
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+
+#--------------------------------------------------------------------
+# Session Configuration
+#--------------------------------------------------------------------
+# session.driver = CodeIgniter\Session\Handlers\FileHandler
+# session.savePath = writable/session
+# session.cookieName = ci_session
+
+#--------------------------------------------------------------------
+# Encryption Configuration
+#--------------------------------------------------------------------
+encryption.key =
+
+#--------------------------------------------------------------------
+# Logger Configuration
+#--------------------------------------------------------------------
+# logger.threshold = 4

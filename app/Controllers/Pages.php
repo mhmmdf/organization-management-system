@@ -14,13 +14,25 @@ class Pages extends BaseController
         return view('pages/gallery');
     }
 
-    public function pendaftaran()
+    public function register()
     {
-        return view('pages/pendaftaran');
+        return view('pages/register');
     }
 
     public function contact()
     {
         return view('pages/contact');
+    }
+
+    public function redirectToLocale()
+    {
+        $supportedLocales = config('App')->supportedLocales;
+        $locale = $this->request->getLocale();
+
+        if (! in_array($locale, $supportedLocales)) {
+            $locale = $supportedLocales[0];
+        }
+
+        return redirect()->to("/{$locale}");
     }
 }

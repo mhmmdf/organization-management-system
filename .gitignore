@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.*
+
+# Dependencies
+vendor/
+
+# Cache & Logs
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/debugbar/*
+!writable/cache/.gitkeep
+!writable/logs/.gitkeep
+!writable/session/.gitkeep
+!writable/debugbar/.gitkeep
+
+# Uploads
+writable/uploads/*
+!writable/uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Tests
+builds/
+
+# Composer
+composer.lock
