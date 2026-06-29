@@ -74,7 +74,7 @@ return [
 
     // Footer
     'footer_copyright' => '&copy; Copyright <strong>Arzy</strong>. All Rights Reserved',
-    'footer_credit'    => 'Didesain oleh <a href="https://paynearby.id/">Nearby Digital Indonesia</a>',
+    'footer_credit'    => 'Dibuat oleh <a href="https://github.com/mhmmdf">Muhammad Fikri Arzyah</a>',
 
     // Language Switcher
     'lang_en' => 'English',
